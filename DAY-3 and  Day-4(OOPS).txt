@@ -1,0 +1,123 @@
+
+
+OOPS:-
+****** 
+     OOPS:- Object Oriented Programming Structure  
+     The basic concept of OOPs is to create objects, re-use them throughout the program, and manipulate these objects to get results
+     Method of implementation in our program are organized in the form of method, object and class.
+
+Class:-
+*******
+---->Combination of object and method.
+       Syntax:-
+          -->AccessSpecifier   class    classname{}
+                  |              |         |
+                public         class    Oopsclass
+                 {
+                body
+                 }
+
+Method:-
+******** 
+     ->Set of actions to be performed.
+        Syntax:-
+          --->AccessSpecifier  returntype  methodname()
+                  |                |            |
+                public            void        oops() 
+                 {
+                 body
+                 }
+             
+ Object:-
+********* 
+      -> Instance of the class.
+      ->helps to call the method
+      -> it allocates memory
+      ->object is created in main method only. 
+       
+ Object Syntax :-
+***************
+         ClassName objName=new ClassName
+
+ New:-
+ ****
+   ->new keyword for creation/allocating memory.
+   
+
+Oops Concepts :-
+****************
+    Encapsulation
+    Inheritance
+    Polymorphism
+    Abstraction
+
+Encapsulation :-
+*************
+     The process of Binding Code And Data together A Single entity(information).
+     Creating a structure of folders.
+     Code = class+varibles+objects+methods...ex:-pojo
+     Data = given data...
+
+13. Inheritance:
+------------------
+
+•	Relationship between parent and child class.
+•	One class access the property of another class using “extends” keywords.
+
+Types of Inheritance:
+•	Single
+•	Multiple
+•	Multilevel
+•	Hierarchical
+•	Hybrid
+
+Single Inheritance:
+--------------------
+
+                  [A]  parent
+                   |              
+                  [B]  Child  
+                                                     
+•	Child class (B) access the property of parent class (A).
+                                                                   
+ Multiple Inheritance:
+---------------------- 
+
+                   [A]	  [B]
+                     \   /
+    		      [C]
+                                         
+•	It has more than one parent class is accessed by one child class.
+•	So there will be priority issue to access the parent class.
+•	It is not possible in JAVA.
+•	can overcome this disadvantage by using “Interface”.
+
+                              
+Multilevel Inheritance:
+------------------------
+		        [A]
+                         |
+                        [B]
+                         |
+                        [C]
+
+•one parent class will be accessed by one child class that will be accessed by another child class.
+
+
+Hierarchical Inheritance:
+-------------------------
+			    [A]	
+                           /   \
+			[B] [C]	[D]
+
+•One parent class will be accessed by more than one child class...
+
+Hybrid Inheritance:
+--------------------
+				[A]
+
+			[B]		[C]
+
+				[D]
+•Combination of Single inheritance and Multiple Inheritance. 
+

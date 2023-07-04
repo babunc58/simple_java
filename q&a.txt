@@ -1,0 +1,9 @@
+1.without  main method is compiling is possible or not
+2.how to call variable of a method to other
+3.how garbbage work
+4.default as a specifier
+5.String scanner complete paragraph
+6.difference btwn final and private
+7.literal and nonliteral strings
+8.string buffer and builder difference in implementation
+9.

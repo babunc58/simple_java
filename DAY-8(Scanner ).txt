@@ -1,0 +1,37 @@
+Scanner :-
+	---->It is a class 
+	---->Scanner Class Present In java.util.package.
+	---->To Get The Input From The User (or) Run-time.
+
+Syntax :-
+       Scanner refName = new Scanner(System.in);
+ 
+	Scanner = class
+
+	System.in ---> To Take The Input From Console
+
+	System.out ----> To Print The Console.
+
+
+Scanner Methods :-
+next() :-
+        Accepts One Value               (hello  java)======>hello            
+	After The Space It Won't Accept.
+
+nextLine() :
+                                        hello java===>hello java
+	Accepts More Than One Value 
+	After The Space It Will Accept.
+
+
+nextInt() :
+          It Accepts A Integer Values.===>55
+
+nextFloat():
+
+ 	  It Accepts A Decimal Values.===>1.000
+
+next().charAt(0):
+
+          It Accepts A Single character.===>'A'
+

@@ -1,0 +1,22 @@
+Constructor :
+
+          Class Name And Constructor name will be same .
+
+          When We create an object for a class The Default Constructor Will Be Executed Automatically 
+          At The Time Itself.
+
+          It Will not have any Return Type (void).
+
+          it Will support Method Overloading And Does Not Support Method Overriding
+
+
+Types :
+
+           Default Constructor 
+           non - parameterized Constructor Or non-argument constructor.
+           Parameterized Constructor
+
+
+
+
+

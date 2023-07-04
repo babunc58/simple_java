@@ -1,0 +1,97 @@
+                                        Day 2:-
+                                       --------
+
+Eclipse Project Creation:-
+*************************
+  FILE:
+       New--->Java--->JavaProject--->ProjectName(Pascal)--->Next--->Finish
+
+  Package Creation:
+       Src--->New--->Package--->Name--->Finish
+
+ Class Creation:
+       Package--->New--->Class
+
+
+Access Specifier or Access Modifiers: keyword
+************************* 
+-->Public: Global level access (inside and outside the package)
+-->Private: Class level access (inside the class)
+-->Protected: same like public but use “extends” keyword
+-->Default: Package level access.
+
+Main Method:-
+***********
+public static void main(String arg[])
+
+public---->Access specifier
+static---->keyword
+void----->return type
+main----->method name
+String----->string class
+arg[]----->array of string object
+
+Datatypes: 
+*********  
+Two types:-
+             1)Primitive
+             2)non Primitive
+                   
+-->Primitive  : - 
+                     1. A variable can store only one value      
+                     2. Predefined datatype.
+
+Primitive:-
+DATA TYPE   MEMORY SIZE [Byte]      DEFAULT VALUE	     BIT VALUE                                         WRAPPER CLASS      MEMORY SIZE [BIT]
+
+ *byte	            1	                 0	       -128  TO +127                                              Byte                 8
+ *short	            2	                 0	       -32768 TO +32767                                           Short                16                                                                                      Short
+ *int	            4	                 0	       -2147483648  TO  +214748364                                Int                  32                                                                                      Integer
+ *long	            8	                 0	       -92233372036854775808L TO  92233372036854775808L           Long                 64                                                                                       Long
+ *float	            4	               0.0	       -1.45F TO +3.4038235F                                      Float                32                                                                                       Float
+ *double	    8	              00.0	       -1.796931348623157D TO   +1.796931348623157D               Double               64                                                                                                 Double
+ *char	            2	              \u0000	         'A'                                                      Char                 16                                                                                      Character
+ *boolean	   True/false             false	       True/false                                                 Boolean               1
+
+
+    -2^(n-1) to 2^(n-1)-1
+      n= bit
+
+    -2^(8-1) to 2^(8-1)-1====>
+    -2^(7) to 2^(7)-1==>
+    -2*2*2*2*2*2*2  to 2*2*2*2*2*2*2-1
+    -128 to 127 
+
+-->Non Primitive :- 1. A variable can store group of values.
+                      2. Userdefined datatype.
+
+                            * Array   = []
+                            * String  = " "  
+
+Wrapper Class:
+*************
+-->Convert datatype into class object
+-->It is used in collection.
+
+
+Garbage collection:-
+******************* 
+          Garbage ===>unused object
+    --->unreferred objects are deleted automatically
+    --->possible only in java not in c,c++ etc.....
+  
+  Finalize Method:-
+  ----------------
+          Garbage Collection invoked the finalize()
+          
+ Syntax:-
+   -------
+      Classname Objectname=new Classname;
+                ----------
+         objectname.finalize();
+
+
+
+
+
+

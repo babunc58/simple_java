@@ -1,0 +1,90 @@
+String :-
+
+----> Group Of Words Or Special Characters Must Enclosed With in The Double Quotes.
+
+---->It is A Index Based.
+
+---->it is a non-primitive datatype also. 
+
+---->String---->Class or non Primitive.
+
+---->String---->collection of characters.
+-
+Syntax:-
+
+         1)String s = "Welcome To Java";      // litral-->stored in string constant pool
+
+         2)String s=new String("hello java");          //non litral--object-->Stored in heap memory
+
+String Functions Or Manipulation :====>Method
+ 
+1.s.length():---> int
+             ---->int l=s.length();
+
+2.s.equals():-->(true or false)
+            --->boolean e=s.equals(s1);
+
+3.s.equalsIgnoreCase():--->(true or false)
+                       --->boolean b=s.equalsIgnoreCase(s1);
+
+4.s.toUpperCase():-->string
+                  --> String c=s.toUpperCase();
+
+5.s.toLowerCase():-->string
+                  -->String c1=s.toLowerCase();
+
+6.s.startsWith():--->(true or false)
+                 ---> boolean b2=s.startsWith("true or false");
+
+7.s.endsWith():--->(true or false)
+               --->boolean b3=s.endsWith("true or false");
+
+8.s.contains():-->(true or false)
+               --> boolean o=s.contains("true or false ");
+
+9.s.indexOf()  //----> value:
+                 ---->int o=s.indexOf("value ");
+
+10.s.lastIndexOf() //----> value
+                     ----> int i1=s.lastIndexOf("value");
+
+11.s.charAt() //---> index
+                --->char ch=s1.charAt(index);
+
+12.s.replace() :---> String     
+                ---> String st=s.replace("oldchar", "newchar");
+
+13.s.subString():-->string
+                 --> String st2=s.substring(beginIndex)=(2)==>hello --->llo
+
+14.s.isEmpty():-->true  or false
+               --> boolean le=s2.isEmpty();==> String s2=" ";
+
+15.s.split():--->string
+             --->String[] sp = s.split(" ");
+                       foreach (String str : sp) 
+                          {                          
+                     loop body
+                          }
+16.s.trim():---> string 
+            --->String trim = s.trim(); "__ hello__ "
+
+
+17.s.substring2:---string
+                ---> String st3=s.substring(beginIndex, endIndex)==(2,5)==>hello java==>llo
+                                         
+
+
+
+ASCII Values :
+
+American Standard Code For Information Technology
+
+
+A to Z ------> 65 to 90
+
+a to z ------> 97 to 122
+
+
+0 to 9 -----> 48 to 57
+

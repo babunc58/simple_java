@@ -1,0 +1,179 @@
+excel for tst case perperation
+stlc-softwere testing life cycle
+stlc phases
+============
+            1.   requirement gathering,
+			     participant
+			     ===========
+			1.client
+			2.business analyst
+			3.product owner
+			4.scrum master
+			
+            2.   test planing,
+			
+			1.what to test
+			2.how to test
+			3.when to test
+			
+			3.   test designing,
+			creaton of scenerio===> highlevel scenero like (logn,search button,add to crat.., etc..)
+			test case( through excel) excepted,actual is called validate
+			why you write the test case ?===> to avoid the mistake
+			verfcaton (ststic testng) and  valdation(dynamic testing)
+			    verfcaton (ststic testng)
+			    walkthrough
+			    code review
+			    document reviwe
+			
+			valdation(dynamic testing)
+			  excepted and actual result
+            			
+			                                                         RTM  (reuirement  traceblity  matrix)
+			4.  enviromental setup,test executon,
+			manual and also automation(low test case is manual testng,high test cse automation testing)
+			
+			5.   defect reporting,
+			
+			ERROR==human eror
+			BUG=== find out by developer
+			DEFECT== find out by tester
+			
+			rsising the defect in jira-to developer
+			
+			
+			defect life cycle
+			==================
+			
+			
+			
+			new--in jira creatig the defect
+			
+			open --developer started work on defect
+			
+			fixed-- code  changed to correct the defect 
+			
+			retest--tester will retesting defect
+			
+			verified--tester will  recheck
+			
+			(still it was in defect)  reopen---again developer will started work on defect
+			
+			deffered---not problem in present sprint later sprint we will fixed
+			
+			dupilacte---same defect repeated by another tester(Q.A)
+			need for information--
+			
+			rejected--
+			
+		    6.   closure====>signoff
+			
+			test planing===> 
+			test reporting==>scope,objective,approch,estimation,deadlne
+			defect report==>how many pass,fail,close,fixed,verie
+			
+			
+
+jeera -user story-task,sprint,isuues,backlog, 
+confulence url url-brd,srs,
+share path use vedio, files ,etc,to downlad material related testing
+tems softwere communcatng wth teams
+out look for checking mail
+postman for manual testing
+
+
+automtion
+enviromental setup
+jdk
+notepad++
+eclipse,intelji,visual studio,springboot,notebeans
+mysql
+
+
+
+
+water fall or ajile mehodology
+
+
+iteraion based on 2 weeks sprint
+10 days *8 hours =80 hours
+
+points sof story user
+=======================
+1pts=1days
+
+simple(1 to 5)
+ moderate 5 above
+copmlex 13 above
+
+fibnoic series
+=============
+complexicty   high,low ,medium
+and velocity-team capacity worked on before sprint
+
+
+
+fremework-maven  dependence (or) gradle
+
+emanual testin
+
+water fall methodology is a slow processing(old model)
+
+Ajile or (kanban) mathodologies it was fastest processiing(kanban is the latest model)
+===================
+SDLC(softwere development life cycle)
+
+partcipents;-
+==============
+scurem teams===>build,q.a
+product owner===>client or project manager
+scurem master===>product owner wes boss of scurem master
+tester==>
+developer==>
+
+business analyst(any doubt discuss with him)
+client(even business analyst is also dont about that..., directly contact with client)
+
+
+
+sprint backlog
+==============
+log in,usrname,pswd,etc..,
+present task (acceptence cretiria)
+===>as a user i want to book a ticket
+
+product backlog
+===============
+feature we want we will keep it
+
+jira
+====
+todo---6 month task
+improgress---procssing
+done--- by manager,scrum manager
+
+
+AJILE CEREMONIES
+==================
+1.spririt planning or grooming
+	  product owner+ scrum team 
+          product ownerwill be discuss about the user stories
+2.sprnt daily standard up or scurem meeting
+
+agenda format (10-15 minutes)
+==============
+   1. Ther is any blocker
+   2.what i did yesterday
+   3.what i going to today
+  
+3.sprint review meeting or demo meeting 
+ 
+    discuss about task\
+
+4.sprint retrospective meeting(1 hrs)
+   
+   discus about our  problems
+   
+   1.what went well
+	2.what does not went well
+	3.how to improve in the next sprint

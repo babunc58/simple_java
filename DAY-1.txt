@@ -1,0 +1,95 @@
+What is Java.?
+-->Simple Programming Language
+-->Writing / Compling / Debugging is easy
+-->It can be reused
+
+
+Java History :-
+***************
+--> james Gosling Developer
+--> Sunmicro system company
+--> Sun engineers
+--> green team
+--> project(1991 to 1994) develop in year
+--> Green Talk 
+--> Oak (U.S.A,GERMANU)-->NATIONAL TREE
+--> simple of strength
+--> Java  [1995] may 19---->COFFEE NAME
+--> indonesia small island java
+
+
+Features of Java:
+*****************
+         1.Platform Independent - Supports all OS [Windows , Mac, Linux]
+        Complier - converts Source code ---> Byte code
+
+                 Source code ---> Human made language [English]
+                 Byte Code ----> Machine Language [Binary Digits --> 0 1]
+
+        2.Open Source [Free of Cost]
+
+        3.Secured [Unauthorized Person]
+
+        4.Portable [Write Once Run Anywhere]
+
+        5.Multi Threading [More task can be completed at a time] 
+          Multi Tasking   [Different task can be completed at a time]
+ 
+ 
+Java Architecture:-
+*******************
+1.JVM :- Java Virtual Machine
+         ->Physically not exists
+         ->it is used for memory allocation
+
+2.JRE :- Java Runtime Environment
+        ->it help to run the program
+        ->Predefined files(.class files)
+
+3.JDK :- Java Development Kit
+         ->JDK = JVM + JRE
+         ->JDK version 1.0 - 1.16 ,1.17
+         ->SE 1.8 - Standard Edition
+
+
+Coding standards:-
+******************
+1.Pascal:-
+         ->Every words first letter must be in capital
+      Eg:-
+         -Selenium_TestingToolAutomation //Demo_Test
+         ->Project/Class Name
+
+2.Camel:-
+         ->Except first word remaining words first letter must be capital.
+      Eg:-
+         ->selenium _TestingToolAutomation   //demo_Test
+         ->Method/Variables/Object Name
+
+What we need to create a program.?
+            --> Project ---Pascal======>Java_Class
+            -->Package -- No coding standard [lowercase]
+                       Eg:-com.classname
+                           org.classname
+            -->Class -- Pascal======>SampleProgram
+            -->Method -- Camel======>studentName
+            -->Object -- Camel======>java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

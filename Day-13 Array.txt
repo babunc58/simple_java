@@ -1,0 +1,49 @@
+
+
+Array :
+
+        Storing A Multiple values in a single variable.
+
+	It is a non-primitive datatype.
+
+Syntax :
+
+DataType variableName [] = new DataType [length];
+
+Eg :-	
+      1) int a[]= new int [3];
+      2) int a[]={1,2,3};---->element
+      3) int[] a;
+             a=new int[];
+
+
+Exception:-
+          ArrayIndexOutOfBoundsException--->error
+
+features :-
+
+         * It Supports Similiar Datatype.
+
+         * It is Index Based.
+                   --> length : 1 2 3 =>3
+                   -->  index : 0 1 2 
+                              ---> first index=0
+                              ---> last index =2
+
+         * index Starts From 0 to n-1
+                   n = Length                                  
+                  [3] ----> We Give Length
+
+Dis Advantages :-
+
+            1) It Will Support Similiar DataType.
+                       *int==>value
+                       *string ===>variable
+
+            2) It Has Fixed Length.
+
+            3)It Has High Memory Wastage ....
+                           *length:-[10]==>0,1,2,3,4,5,6,7,8,9
+                           *value:- 4==>  1,2,3,4
+
+            4) But It can be Overcome By Collection.

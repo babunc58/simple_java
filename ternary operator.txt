@@ -1,0 +1,2 @@
+ if else is simplified by ternary operator 
+syntax : int i= a>b?a:b  ---- if a>b is true 'a' is the value of 'i' else 'b' is the value of 'i'

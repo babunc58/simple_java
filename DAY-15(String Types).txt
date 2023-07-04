@@ -1,0 +1,127 @@
+Memory :-
+
+1)Stack Memory  : Static memory allocation
+
+     --->primitive, objects,methods
+
+2)Heap Memory  : Dynamic memory allocation      
+
+     ---> string ,non-primitive
+
+To Find Out The Memory :
+
+   ---->System.identityHashCode(refName);
+
+*******************************************************************************************************************
+
+String Types :
+
+  *Im Mutable
+  *Mutable		
+  *Literal
+  *Non-Literal
+
+***********************************************************************************************************************
+
+ImMutable : will not change
+
+Syntax  :-
+    String refName = " ";// litral-->stored in string constant pool
+
+ 
+	------>duplicate value ----- > it will share the memory//abi,abi
+             
+        ------>Concordination ---->  it will create the new memory. // s1 = s2+s3 
+     
+
+***********************************************************************************************************************************************************
+
+Mutable :-will change
+
+
+            duplicate value ----- > it Will create new memory.
+
+ 	    Append ---->   The memory will be shared.  // s1 = s1.append(s2)
+
+
+String Buffer And String Builder
+
+Syntax : 
+
+StringBuffer refName1 = new StringBuffer("ABC");
+StringBuilder refName = new StringBuilder("ABc");
+
+String Buffer :
+                 And it is synchronized-->proccess in backround
+                   ex:-Atm  
+
+                 One by one processs .
+
+                But it is a slow process  
+		
+                it is a thread(wait) safe .
+                      syntax:-
+		          Thread.sleep(millis);
+
+*****Thread**** :
+		 Threads allows a program to operate more efficiently by doing multiple 
+		 things at the same time. 
+
+		 
+String Builder :
+                And it is ASynchronized ..proccess in backround
+		
+                Multiple process
+
+                But it is a fast process.
+
+                It is not a thread safe . 
+***********************************************************************************************************************************************************
+						LITERAL STRING (im mutable)
+litral=====>old version
+ 
+immutable====>new version
+
+      It stored inside the heap memory.
+
+      It will share the memory if Same (Duplicate Value ).
+
+
+     Syntax :-
+         String s  = " ";//litral
+
+***********************************************************************************************************************************************************
+						Non LITERAL STRING  (mutable)
+ non litral=====>old version
+ 
+  mutable====>new version
+	
+         it stored in Heap Memory.
+
+         It create a new memory even if same (Duplicate) Value
+
+        Syntax :- 
+             String s  = new String (" ");//non literal
+
+***********************************************************************************************************************************************************
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
